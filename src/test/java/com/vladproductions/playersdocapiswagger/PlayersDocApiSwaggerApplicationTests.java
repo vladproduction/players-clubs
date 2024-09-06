@@ -8,6 +8,14 @@ class PlayersDocApiSwaggerApplicationTests {
 
 	@Test
 	void contextLoads() {
+		int a = 5/0;
+	}
+
+	@Test
+	void testDivisionByZero() {
+    		Assertions.assertThrows(ArithmeticException.class, () -> {
+        		int a = 5 / 0;
+    		});
 	}
 
 }
