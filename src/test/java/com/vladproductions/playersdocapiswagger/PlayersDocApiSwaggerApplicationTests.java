@@ -8,7 +8,6 @@ class PlayersDocApiSwaggerApplicationTests {
 
 	@Test
 	void contextLoads() {
-		int a = 2/0;
 	}
 
 }
