@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
+        /*stage('Checkout') {
             steps {
                 script {
                     bat 'dir'
@@ -13,7 +13,7 @@ pipeline {
                     bat 'dir'
                 }
             }
-        }
+        }*/
         
         stage('Build') {
             steps {
