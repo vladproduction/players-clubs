@@ -2,18 +2,7 @@ pipeline {
     agent any
 
     stages {
-        /*stage('Checkout') {
-            steps {
-                script {
-                    bat 'dir'
-                    checkout([$class: 'GitSCM', 
-                        branches: [[name: '*/main']], 
-                        userRemoteConfigs: [[url: 'https://github.com/vladproduction/players-clubs']]
-                    ])
-                    bat 'dir'
-                }
-            }
-        }*/
+        
         
         stage('Build') {
             steps {
