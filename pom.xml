@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.vladproductions</groupId>
-	<artifactId>players-doc-api-swagger</artifactId>
+	<artifactId>players-clubs</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>players-doc-api-swagger</name>
-	<description>players-doc-api-swagger</description>
+	<name>players-clubs</name>
+	<description>players-clubs project a simple Spring Boot app with swagger tool; created to test pipeline in jenkins manager</description>
 	<url/>
 	<licenses>
 		<license/>
